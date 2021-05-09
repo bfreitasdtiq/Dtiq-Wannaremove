@@ -121,6 +121,8 @@ Write-Host Dtiq-Wannaremove Searching for in3.ps1
 Search-Registry -Path HKLM:\SYSTEM -Recurse -SearchRegex "in3.ps1" -ValueData -ErrorAction SilentlyContinue
 Write-Host Dtiq-Wannaremove Searching for in6.ps1
 Search-Registry -Path HKLM:\SYSTEM -Recurse -SearchRegex "in6.ps1" -ValueData -ErrorAction SilentlyContinue
+Write-Host "Dtiq-Wannaremove Searching for powershell.exe -NoP"
+Search-Registry -Path HKLM:\SYSTEM -Recurse -SearchRegex "powershell.exe -NoP" -ValueData -ErrorAction SilentlyContinue
 
 #Running Remove-Item (Remove Whatif to delete the keys)
 Write-Host Dtiq-Wannaremove Deleting Keys
@@ -128,7 +130,8 @@ Search-Registry -Path HKLM:\SYSTEM -Recurse -SearchRegex "in6.ps1" -ValueData -E
 Foreach-Object { $_.Key | Remove-Item }
 Search-Registry -Path HKLM:\SYSTEM -Recurse -SearchRegex "in3.ps1" -ValueData -ErrorAction SilentlyContinue  |
 Foreach-Object { $_.Key | Remove-Item }
-
+Search-Registry -Path HKLM:\SYSTEM -Recurse -SearchRegex "powershell.exe -NoP" -ValueData -ErrorAction SilentlyContinue  |
+Foreach-Object { $_.Key | Remove-Item }
 
 
 Stop-Transcript
