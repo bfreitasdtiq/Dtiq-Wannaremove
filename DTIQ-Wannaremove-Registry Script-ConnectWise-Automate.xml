@@ -1,0 +1,72 @@
+﻿<LabTech_Expansion
+	Version="210.82"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>425</ScriptId>
+				<FolderId>0</FolderId>
+				<ScriptName>DTIQ-Wannaremove-Registry Script</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>1,2,4,5,</Permission>
+				<EditPermission>1,4,5,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQqDMBCE74W+Qx7AkKxRK7IESv8u7aWW3hPdQi4qMYH69kVpwZ6GmeEbGLy6hrqRjiYYjY9pIA0oFsV77A597AJ5LVGsHJ7eg/MzQ7o2IfrWTAk7k/XR+InJLGGphJQBVFJVoNj+hmLFYN14N4Qn+dH13Tz+H3z7S3StztRL7tKy4FaS4gBkuS2h4bIooMjyvAVSP34BUKwvbTcfrQHsIuIAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN2VW2/aMBTH3yftO0SV+piLHSBQsahTCxVSpaIxlRde7OQA1hI7tR0C375JcNpAt2wPq3Z5cfw/t/j8HJ2MF5Fkmb4lmoQfP1jW+KhVLUo52WtJKu+UQRIry20ccyJJChpky3aXCEoSFV4fi0z4hnGYcEITuBebDcjrT19lDmO3CTR5x/DHshYTPERj99RwEnWXszjs+WsvwMOBTT3wbYSA2nSIItsbDNCg1+/HCPymSp1Qt+a2ezPlFhqyl3N8jrQ5gNkZ+zTntZ7Fla+l2ixQ6Afe2DX7tgefUfPDJs4/sffO4vqveiGkrrLqp7HdCK4Zz6Gyv+yN70Hds5TVKc3WeGY8Bq5J3V7pbcs2pFcuHaBwByg86iB1qbaQJBJUnujLX2N2pv8rVijoYEWHo8AbBoPy4/aqbz1e22RULnGPYAJDFFDovwtC9AOE6G9EiD2/g+GM78Q3sJdAv8BTDkpbW60zdeW6khTOhultTnMFMir7Ks/nRCJ16VoC00TFmj25t+ViLwnnREIqduCmhPE3VidTyLIfcj1lCVg3V6uC8VgUalXVsIvTwHe5M/wv3RnC/Y47K/EtDb7FQWlIfdwY5qIAuahGyGqHHG+VVboeKQ7s4ftgQ3uyhyivXjUXCYsOFj1kRCnr4if3dGHq4d8yw/0/MJcabX7yzxpioCDzBwAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>43f07286-b0e3-11eb-b81c-06616455d1e3</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>35</ScriptId>
+					<FolderId>2</FolderId>
+					<ScriptName>Show Variables*</ScriptName>
+					<ScriptNotes>Writes the Internal and User Script Variables to the Script log.
+This script can be called from your script to log all the variable at that moment in time.
+
+ Script Verified to by Greg Buerk on Mar 5 2009</ScriptNotes>
+					<Permission>1,5,4,2</Permission>
+					<EditPermission>1,5,</EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>0</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>0</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPQQuCQBCF70H/YX+AsrNarsqwl4wuBVFR59UdYQ+tsirkvy+lwC7vMe/xDTw82opcR4XutcLb2JISyGfHy+B2zeB68gqQLy7cv1rrJ4bUg4yjzugxYAVV9CzJM5ABi0AIFuUx5CDZ+YR8weC18rbt7+Q727jp+X/w7Q+DNapMMwmpTEJIIA6FMHWos4+YjY40pUKWtP3xM4B8OWm9egNOxPwZ4gAAAA==</LicenseData>
+					<ScriptData>H4sIAAAAAAAEAN2Ub2uDMBDG3w/2HfIFxEStf4ZIx7Z2hcIGhb4/m5QFUi1JLPv4i2nsUqGyvRrsjd5zz91x90MsNzvJj/oZNFT3dwiVZ62sMPLlU0vo3QVngioUDsY7SDgwzaSXW4q2BuElzsO2poi3TUViHBGcJklehtfOVfmy47Sq8yLDeZYGOMVxQAjdB1CYB00gApaTrGazYYptsMuH/vZu3Eaz4+Wcx522m5Shi1x+0TVWr2jvecq/loyuj0Y6HulkpGcemFbqCpt9+7fLPbWN5k3H+vwldt6bWvMDty1D6JxVQ1mjwR5jXF/6SL4pTGCJJrBE+DaXiphOF04CqrYg11xpVx3/Y1zFBK5XJhniCukPhoTBgdo9AiEQnIALqAVDJ5C8D9QDmjtm858h/uU3SP4A6qDdT+cLVrJsboMEAAA=</ScriptData>
+					<ScriptVersion>1302106448</ScriptVersion>
+					<ScriptGuid>b8970876-0603-11df-a9df-d4a2ae817be5</ScriptGuid>
+					<ScriptFlags>1</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>2</FolderID>
+						<ParentID>1</ParentID>
+						<Name>Functions</Name>
+						<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>1</FolderID>
+						<ParentID>0</ParentID>
+						<Name>_System Automation</Name>
+						<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+		</PackedScript>
+	</PackedScript>
+</LabTech_Expansion>
